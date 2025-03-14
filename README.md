@@ -15,7 +15,8 @@ The project **achieves 99.9% uptime** post-migration and **reduces disaster reco
 - **Cost Optimization:** Used **AWS Cost Explorer, Budgets, and Cost Intelligence Dashboards** to monitor cloud expenses and reduce costs.  
 
 ## **Architecture Diagram**  
-📌 *[Include a high-level architecture diagram showcasing the migration process and target AWS architecture]*  
+📌 ![Architecture Diagram](diagrams/mgm-architecture-diagram.png)  
+ 
 
 ## **AWS Services Used**  
 - **Migration & Modernization:** AWS MGN, AWS DMS, Elastic Disaster Recovery  

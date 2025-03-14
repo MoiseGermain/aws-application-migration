@@ -46,7 +46,7 @@ The project **achieves 99.9% uptime** post-migration and **reduces disaster reco
 - Use this as a **reference architecture** for migrating enterprise applications to AWS.  
 
 ## **Next Steps**  
-➡️ **[View Project Documentation](docs/deployment-steps.md)**  
+➡️ **[View Project Documentation](docs/deployment.md)**  
 ➡️ **[Explore Cost Optimization Strategies](docs/cost-optimization.md)**  
 ➡️ **[Troubleshooting Guide](docs/troubleshooting.md)**  
 

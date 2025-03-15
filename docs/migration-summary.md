@@ -23,6 +23,13 @@ My environment now looks like this:
 
 ---
 
+## **🚀 Next Steps**
+Now that the database is migrated, it's time to:  
+➡️ **Migrate and configure the application server!**  
+➡️ **Repoint the application to the new AWS RDS database.**
+
+🔜 **[Continue to Application Migration](./migrate-application.md)**  
+
 # **🚀 Migration Summary**
 
 ## **✅ Migration Process Successfully Completed!**
@@ -81,9 +88,4 @@ The next steps focus on **modernizing** my workload to take full advantage of **
 I have successfully migrated my workload to AWS, and I am now ready to optimize and modernize it further! 🚀  
 
 
-## **🚀 Next Steps**
-Now that the database is migrated, it's time to:  
-➡️ **Migrate and configure the application server!**  
-➡️ **Repoint the application to the new AWS RDS database.**
 
-🔜 **[Continue to Application Migration](./migrate-application.md)**  

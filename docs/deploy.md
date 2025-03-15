@@ -104,6 +104,8 @@ sudo systemctl status aws-discovery-daemon.service
 
 📌 Now, the agent is actively collecting and syncing data from my Database Server.
 
+✅ Next Steps
+➡️ Analyze Discovered Data
 
 
 

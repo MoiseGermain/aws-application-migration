@@ -17,7 +17,7 @@ The **DB Subnet Group** allows me to **define the subnets** where my **RDS insta
 2. Select **Subnet Groups** from the left menu.
 3. Click **Create DB subnet group**.
 
-🔗 **[AWS RDS Subnet Groups](../assets/rds-subnet-groups.png)**
+🔗 **[AWS RDS Subnet Groups](assets/rds-subnet-groups.png)**
 
 ### **2️⃣ Configure the DB Subnet Group**
 | Parameter | Value |
@@ -41,7 +41,7 @@ Now, I will create a **MySQL database instance** using **Amazon RDS**.
 2. Click **Databases** on the left menu.
 3. Click **Create database**.
 
-🔗 **[AWS RDS Database Creation](../assets/rds-create-db.png)**
+🔗 **[AWS RDS Database Creation](assets/rds-create-db.png)**
 
 ---
 
@@ -51,18 +51,18 @@ Now, I will create a **MySQL database instance** using **Amazon RDS**.
 | **Engine type** | MySQL |
 | **Engine version** | Newest from **5.7** family |
 
-🔗 **[RDS Engine Selection](../assets/rds-engine-selection.png)**
+🔗 **[RDS Engine Selection](assets/rds-engine-selection.png)**
 
 ---
 
 ### **3️⃣ Select Free Tier**
 For cost optimization, I will use **Free Tier**:
 
-🔗 **[Free Tier Selection](../assets/rds-free-tier.png)**
+🔗 **[Free Tier Selection](assets/rds-free-tier.png)**
 
 Since Free Tier is selected, **Single DB instance** is automatically chosen for availability and durability.
 
-🔗 **[Availability & Durability Settings](../assets/rds-availability.png)**
+🔗 **[Availability & Durability Settings](assets/rds-availability.png)**
 
 ---
 
@@ -73,7 +73,7 @@ Since Free Tier is selected, **Single DB instance** is automatically chosen for 
 | **Master username** | `admin` |
 | **Master password** | `VeryHardPassword` |
 
-🔗 **[RDS Credentials Setup](../assets/rds-credentials.png)**
+🔗 **[RDS Credentials Setup](assets/rds-credentials.png)**
 
 ⚠️ **Note:** The **password above is not secure** and should not be used in a real production environment.
 
@@ -84,7 +84,7 @@ Since Free Tier is selected, **Single DB instance** is automatically chosen for 
 |-----------|----------------------------|
 | **Instance class** | `db.t3.micro` (Burstable DB instance) |
 
-🔗 **[RDS Instance Configuration](../assets/rds-instance-config.png)**
+🔗 **[RDS Instance Configuration](assets/rds-instance-config.png)**
 
 ---
 
@@ -95,7 +95,7 @@ Since Free Tier is selected, **Single DB instance** is automatically chosen for 
 | **Allocated storage** | `20 GB` |
 | **Enable storage autoscaling** | ❌ Unchecked |
 
-🔗 **[RDS Storage Configuration](../assets/rds-storage.png)**
+🔗 **[RDS Storage Configuration](assets/rds-storage.png)**
 
 ---
 
@@ -107,7 +107,7 @@ Since Free Tier is selected, **Single DB instance** is automatically chosen for 
 | **VPC security group (firewall)** | `Choose Existing` |
 | **Existing VPC security groups** | Select **DB-SG** only |
 
-🔗 **[RDS Connectivity Settings](../assets/rds-connectivity.png)**
+🔗 **[RDS Connectivity Settings](assets/rds-connectivity.png)**
 
 ---
 
@@ -116,7 +116,7 @@ Since Free Tier is selected, **Single DB instance** is automatically chosen for 
 - **Monitoring:** `Disable Enhanced Monitoring`  
 - **Backups & Auto Upgrades:** `Disable automated backups` and `auto minor version upgrade`  
 
-🔗 **[RDS Backup & Monitoring Settings](../assets/rds-backup-monitoring.png)**
+🔗 **[RDS Backup & Monitoring Settings](assets/rds-backup-monitoring.png)**
 
 ---
 
@@ -124,14 +124,14 @@ Since Free Tier is selected, **Single DB instance** is automatically chosen for 
 1. **Review the estimated monthly cost.**
 2. Click **Create database**.
 
-🔗 **[RDS Cost Estimation](../assets/rds-costs.png)**
+🔗 **[RDS Cost Estimation](assets/rds-costs.png)**
 
 ---
 
 ## **✅ Final Step: Verify Database Status**
 The **RDS Database Instance** creation will take a few minutes. I will **monitor the status** in **RDS → Databases** until it shows **Available**.
 
-🔗 **[RDS Instance Available](../assets/rds-instance-available.png)**
+🔗 **[RDS Instance Available](assets/rds-instance-available.png)**
 
 ---
 

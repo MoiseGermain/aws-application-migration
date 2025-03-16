@@ -17,7 +17,7 @@ I have successfully completed the **database migration** using AWS **Database Mi
 ## **📌 Current Target Environment**
 My environment now looks like this:
 
-🔗 **[AWS DMS Architecture Diagram](../assets/dms-architecture-diagram.png)**
+🔗 **[AWS DMS Architecture Diagram](assets/dms-architecture-diagram.png)**
 
 📌 The application is still pointing to the **old database**, but **our data is successfully migrated**!
 

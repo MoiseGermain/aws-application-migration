@@ -16,7 +16,7 @@ To ensure **minimal downtime** for database migration, I'll use **continuous rep
 5. Select the **Session Manager** tab.
 6. Click **Connect**.
 
-🔗 **[AWS EC2 Connect](../assets/aws-ec2-connect.png)**
+🔗 **[AWS EC2 Connect](assets/aws-ec2-connect.png)**
 
 📌 If using **SSH**, modify **DB-SG Security Group** to allow connection from my **public IP**.
 

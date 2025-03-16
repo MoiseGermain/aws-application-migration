@@ -16,7 +16,7 @@ If my **DMS Replication Instance** is still not **Available**, I may need to **c
 2. Select **Endpoints** from the left-hand menu.
 3. Click **Create endpoint**.
 
-🔗 **[AWS DMS Endpoints Console](../assets/aws-dms-endpoints.png)**
+🔗 **[AWS DMS Endpoints Console](assets/aws-dms-endpoints.png)**
 
 ---
 
@@ -43,7 +43,7 @@ Before clicking **Create endpoint**, I will:
 3. Click **Run test**.
 
 📌 **Expected Outcome** → ✅ **Successful Connection**  
-🔗 **[Test Endpoint Success](../assets/dms-test-endpoint.png)**
+🔗 **[Test Endpoint Success](assets/dms-test-endpoint.png)**
 
 📌 **If test fails**, I will check:
 ✔️ The **endpoint parameters** (server name, username, password).  
@@ -79,7 +79,7 @@ Before clicking **Create endpoint**, I will:
 3. Click **Run test**.
 
 📌 **Expected Outcome** → ✅ **Successful Connection**  
-🔗 **[Test Endpoint Success](../assets/dms-test-endpoint.png)**
+🔗 **[Test Endpoint Success](assets/dms-test-endpoint.png)**
 
 📌 **If test fails**, I will check:
 ✔️ The **endpoint parameters** (server name, username, password).  

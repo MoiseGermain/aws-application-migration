@@ -15,7 +15,7 @@ AWS database migrations typically fall into one of these categories:
 - **Refactor (Re-architect)**: Completely redesigns the database for cloud-native capabilities.
 - **Retain**: Keeps the database in its current environment.
 - **Retire**: Decommissions the database if no longer needed.
-![Common Database Migration Strategies](../assets/database-migration-strategies.png)
+![Common Database Migration Strategies](assets/database-migration-strategies.png)
 
 ---
 

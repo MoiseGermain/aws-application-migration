@@ -20,7 +20,7 @@ A **migration strategy** defines how an application is transitioned from an on-p
    - Completely re-architect applications to use **cloud-native services**.  
    - **Best for:** Long-term scalability, agility, and cost efficiency.  
 
-🔗 **[View Migration Strategies Diagram](../assets/migration-strategies-diagram.png)**  
+🔗 **[View Migration Strategies Diagram](assets/migration-strategies-diagram.png)**  
 
 ---
 

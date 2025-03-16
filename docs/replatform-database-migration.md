@@ -14,8 +14,8 @@ I will migrate a **standalone MySQL database** from the **SourceVPC** to an **Am
 AWS DMS uses a **Replication Instance** to facilitate database movement between the **source** and **target databases**.
 
 📷 **_Insert Architecture Screenshot Here_**  
-![DMS Architecture](../assets/dms-architecture.png)  
-**🔗 [View Full Image](../assets/dms-architecture.png)**
+![DMS Architecture](assets/dms-architecture.png)  
+**🔗 [View Full Image](assets/dms-architecture.png)**
 
 ---
 

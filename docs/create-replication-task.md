@@ -17,7 +17,7 @@ In this section, I will:
 2. Select **Database migration tasks** from the left-hand menu.
 3. Click **Create task**.
 
-🔗 **[AWS DMS Migration Task Console](../assets/dms-migration-task.png)**
+🔗 **[AWS DMS Migration Task Console](assets/dms-migration-task.png)**
 
 ---
 
@@ -32,7 +32,7 @@ In this section, I will:
 
 📌 This configuration ensures **both initial migration and ongoing replication**.
 
-🔗 **[DMS Task Settings](../assets/dms-task-settings.png)**
+🔗 **[DMS Task Settings](assets/dms-task-settings.png)**
 
 ---
 
@@ -53,7 +53,7 @@ In this section, I will:
 3. Select **"wordpress-db"** in the Schema dropdown.
 4. If `wordpress-db` is not available, select **Enter schema** and manually type `wordpress-db`.
 
-🔗 **[DMS Table Mapping](../assets/dms-task-settings.png)**
+🔗 **[DMS Table Mapping](assets/dms-task-settings.png)**
 
 ---
 
@@ -72,7 +72,7 @@ In this section, I will:
 
 📌 The replication task will start **automatically** after creation.
 
-🔗 **[DMS Auto-Start Task](../assets/dms-task-monitor.png)**
+🔗 **[DMS Auto-Start Task](assets/dms-task-monitor.png)**
 
 ---
 

@@ -31,7 +31,7 @@ To access the sample application:
 4. You should see the **eCommerce application homepage**.
 
 📌 
-![Sample Application Running](../assets/source-app-screenshot.png)
+![Sample Application Running](assets/source-app-screenshot.png)
 
 ---
 
@@ -48,7 +48,7 @@ As workloads are migrated, they will transition into a **well-architected AWS in
 The **TargetVPC** is **provisioned but currently empty**. As the migration progresses, application workloads and databases will be deployed incrementally.
 
 📌 **AWS VPC Target Environment Architecture**
-![Target VPC Architecture](../assets/target-vpc-diagram.png)
+![Target VPC Architecture](assets/target-vpc-diagram.png)
 
 ---
 

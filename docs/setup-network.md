@@ -13,8 +13,8 @@ The **lab environment** does not have a **private interconnection** (e.g., **VPN
 Below is a **diagram** illustrating how the **DMS Replication Instance** connects to both the **source and target** databases:
 
 📷   
-![DMS Network Architecture](../assets/dms-network-architecture.png)  
-**🔗 [View Full Image](../assets/dms-network-architecture.png)**
+![DMS Network Architecture](assets/dms-network-architecture.png)  
+**🔗 [View Full Image](assets/dms-network-architecture.png)**
 
 ---
 
@@ -37,7 +37,7 @@ AWS **Security Groups (SGs)** will act as **firewalls** to **control traffic** t
 4. Click **Create security group**.
 
 📷 
-![Create DMS Security Group](../assets/create-dms-sg.png)  
+![Create DMS Security Group](assets/create-dms-sg.png)  
 
 ---
 
@@ -59,7 +59,7 @@ This **Security Group** will allow **incoming traffic** only from the **DMS Repl
 4. Click **Create security group**.
 
 📷 
-![Create DB Security Group](../assets/create-db-sg.png)  
+![Create DB Security Group](assets/create-db-sg.png)  
 
 ---
 

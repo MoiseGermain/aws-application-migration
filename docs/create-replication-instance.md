@@ -6,7 +6,7 @@ Now that I have the **target database ready**, it's time to **set up AWS Databas
 - A **single replication instance** can manage **multiple replication tasks**.
 - The **DMS Replication Instance** will connect to both the **source** and **target databases**.
 
-🔗 **[AWS DMS Overview](../assets/dms-overview.png)**
+🔗 **[AWS DMS Overview](assets/dms-overview.png)**
 
 ---
 
@@ -18,7 +18,7 @@ Similar to the **Target DB Instance**, the **DMS Replication Instance** also nee
 2. Select **Subnet Groups** from the left menu.
 3. Click **Create subnet group**.
 
-🔗 **[AWS DMS Subnet Groups](../assets/dms-subnet-groups.png)**
+🔗 **[AWS DMS Subnet Groups](assets/dms-subnet-groups.png)**
 
 ### **2️⃣ Configure the Subnet Group**
 | Parameter | Value |
@@ -28,7 +28,7 @@ Similar to the **Target DB Instance**, the **DMS Replication Instance** also nee
 | **VPC** | `TargetVPC` |
 | **Add subnets** | `TargetVPC-public-a`, `TargetVPC-public-b` |
 
-🔗 **[DMS Subnet Group Configuration](../assets/dms-subnet-group-config.png)**
+🔗 **[DMS Subnet Group Configuration](assets/dms-subnet-group-config.png)**
 
 Click **Create subnet group**.
 
@@ -42,7 +42,7 @@ Now, I will **create the AWS DMS Replication Instance**, which will handle the *
 2. Select **Replication instances** from the left menu.
 3. Click **Create replication instance**.
 
-🔗 **[AWS DMS Replication Instances](../assets/dms-replication-instance.png)**
+🔗 **[AWS DMS Replication Instances](assets/dms-replication-instance.png)**
 
 ---
 
@@ -54,7 +54,7 @@ Now, I will **create the AWS DMS Replication Instance**, which will handle the *
 | **Instance class** | `dms.t3.medium` |
 | **Multi-AZ Deployment** | ❌ `Dev or test workload (Single-AZ)` |
 
-🔗 **[DMS Replication Instance Configuration](../assets/dms-instance-config.png)**
+🔗 **[DMS Replication Instance Configuration](assets/dms-instance-config.png)**
 
 ---
 
@@ -65,7 +65,7 @@ Now, I will **create the AWS DMS Replication Instance**, which will handle the *
 | **Availability Zone** | `us-west-2a` |
 | **VPC Security Group** | Select the **replication instance security group** created earlier |
 
-🔗 **[DMS Replication Instance Connectivity](../assets/dms-instance-connectivity.png)**
+🔗 **[DMS Replication Instance Connectivity](assets/dms-instance-connectivity.png)**
 
 Click **Create**.
 
@@ -79,7 +79,7 @@ Since the **source database** is in a **different VPC**, I need to **allow acces
 ### **1️⃣ Retrieve Public IP of Replication Instance**
 Once the **Replication Instance** is created, note its **public IP address**.
 
-🔗 **[DMS Replication Instance Public IP](../assets/dms-public-ip.png)**
+🔗 **[DMS Replication Instance Public IP](assets/dms-public-ip.png)**
 
 ---
 
@@ -89,7 +89,7 @@ Once the **Replication Instance** is created, note its **public IP address**.
 3. Locate **DB-SG** (the security group assigned to the source database).
 4. Click **Edit inbound rules**.
 
-🔗 **[Modify Source DB Security Group](../assets/dms-edit-db-sg.png)**
+🔗 **[Modify Source DB Security Group](assets/dms-edit-db-sg.png)**
 
 ---
 
@@ -99,7 +99,7 @@ Once the **Replication Instance** is created, note its **public IP address**.
 | **Type** | `MYSQL/Aurora` |
 | **Source** | `Public IP address of DMS Replication Instance` |
 
-🔗 **[DMS Inbound Rule for Source DB](../assets/dms-inbound-rule.png)**
+🔗 **[DMS Inbound Rule for Source DB](assets/dms-inbound-rule.png)**
 
 Click **Save rule**.
 

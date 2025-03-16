@@ -1,14 +1,17 @@
 # **Review Deployed Environment**
 
 ## **Overview**
-This project demonstrates a **real-world AWS migration strategy**, showcasing the transition of an **on-premises** workload to AWS. It follows best practices for **scalability, security, and high availability**, leveraging AWS **Application Migration Service (MGN), AWS Database Migration Service (DMS), Amazon ECS, and Elastic Beanstalk**.
+This project showcases a **real-world AWS migration strategy**, moving workloads from an **on-premises environment** to the AWS Cloud. The migration process follows best practices for **scalability, security, and high availability**, utilizing AWS services such as:
 
-The **source environment** mimics an **on-premises data center**, while the **target environment** is designed to be **production-ready**, following AWS **Landing Zone principles**.
+- **AWS Application Migration Service (MGN)** – Lift-and-shift migration
+- **AWS Database Migration Service (DMS)** – Database replatforming
+- **Amazon ECS & Elastic Beanstalk** – Modernizing application workloads
+- **AWS Elastic Disaster Recovery (EDR)** – Ensuring business continuity
 
 ---
 
 ## **Source Environment**
-In a typical migration scenario, workloads originate from **on-premises virtualized environments**. For this project, the source environment is **simulated in AWS** within a **dedicated VPC (`SourceVPC`)**, mimicking an **on-prem** setup.
+Typical enterprise applications reside in **on-premises virtualized data centers**. In this migration project, the **source environment is simulated in AWS** using a dedicated **Amazon VPC (`SourceVPC`)**.
 
 ### **Source Workload Components**
 - **Application Server (`Source-Webserver`)**
@@ -21,45 +24,48 @@ In a typical migration scenario, workloads originate from **on-premises virtuali
   - Runs on **Amazon Linux**
 
 ### **Accessing the Source Application**
-The deployed application can be accessed via **WebServerDNSName**, which can be retrieved from **AWS CloudFormation Outputs**.  
-To test accessibility:
+To access the sample application:
 1. Navigate to **AWS Console → CloudFormation → ApplicationMigrationStack → Outputs**
-2. Locate `WebServerDNSName`
-3. Open a web browser and enter the DNS name over **HTTP**  
-   - Expected Result: The sample **eCommerce website** should load successfully.
+2. Locate the `WebServerDNSName` value.
+3. Open a browser and enter the **DNS name** over **HTTP**.
+4. You should see the **eCommerce application homepage**.
+
+📌 **Example Screenshot of Source Application Running**
+![Sample Application Running](../assets/source-app-screenshot.png)
 
 ---
 
 ## **Target Environment**
-A **well-architected migration** involves transitioning workloads into a **secure, scalable, and highly available AWS environment**.  
-For this project, the **target environment (`TargetVPC`)** follows AWS **Landing Zone architecture**.
+As workloads are migrated, they will transition into a **well-architected AWS infrastructure** for improved **security, availability, and cost efficiency**.
 
 ### **TargetVPC Configuration**
-✅ **Multi-AZ Deployment** – Ensures high availability  
-✅ **Private Subnets** – Used for application and database tiers  
-✅ **Security Groups & IAM Roles** – Implement least privilege access  
-✅ **Scalable & Resilient Infrastructure** – Supports modern application architectures  
+✅ **Multi-AZ Deployment** – Ensures **high availability**  
+✅ **Private Subnets** – Application and database tiers **segmented for security**  
+✅ **Security Groups & IAM Roles** – Follows **least privilege access** best practices  
+✅ **Scalable & Resilient** – Enables **auto-scaling and load balancing**  
 
 ### **Current Target Environment State**
-The **TargetVPC** is currently **provisioned** but remains **empty**. As the migration progresses, workloads will be deployed into this environment based on the chosen **migration strategy**.
+The **TargetVPC** is **provisioned but currently empty**. As the migration progresses, application workloads and databases will be deployed incrementally.
+
+📌 **AWS VPC Target Environment Architecture**
+![Target VPC Architecture](../assets/target-vpc-diagram.png)
 
 ---
 
 ## **Next Steps**
-➡️ **[Deploy the Migration Strategy](../docs/deployment.md)**  
+➡️ **[Deploy Migration Strategy](../docs/deployment.md)**  
 ➡️ **[Troubleshoot Issues](../docs/troubleshooting.md)**  
 
 ---
 
 ## **Project Summary**
-This project provides **hands-on experience** with **AWS migration services**, simulating the migration of a real-world application. The following AWS services are utilized:  
+This project serves as a **hands-on real-world AWS migration** demonstration. By the end, the **application will be fully migrated and modernized** using **AWS best practices**.
 
-🔹 **AWS Application Migration Service (MGN)** – Rehosting workloads  
-🔹 **AWS Database Migration Service (DMS)** – Replatforming databases  
-🔹 **Amazon ECS & Elastic Beanstalk** – Modernizing application deployments  
-🔹 **AWS Elastic Disaster Recovery (EDR)** – Ensuring business continuity  
+✅ **Migrated WordPress eCommerce Application**  
+✅ **Database transitioned from self-managed MySQL to Amazon RDS**  
+✅ **Application rehosted & modernized on AWS services**  
+✅ **Infrastructure optimized for scalability & cost efficiency**  
 
-This structured approach **demonstrates best practices** for migrating and modernizing applications on AWS.
+This structured approach **showcases expertise in AWS migrations**—a critical skill for **Cloud Engineers and Solutions Architects**.
 
 ---
-

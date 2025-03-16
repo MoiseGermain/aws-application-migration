@@ -17,7 +17,7 @@ I have successfully completed the **database migration** using AWS **Database Mi
 ## **📌 Current Target Environment**
 My environment now looks like this:
 
-🔗 **[AWS DMS Architecture Diagram](../assets/dms-architecture-diagram-final.png)**
+🔗 **[AWS DMS Architecture Diagram](../assets/dms-architecture-diagram.png)**
 
 📌 The application is still pointing to the **old database**, but **our data is successfully migrated**!
 
@@ -78,6 +78,9 @@ The next steps focus on **modernizing** my workload to take full advantage of **
 
 1️⃣ **Replatforming to AWS Elastic Container Service (ECS)**  
 2️⃣ **Migrating to AWS Elastic Beanstalk**  
+
+## **🎯 Next Steps**
+➡️ **[Replatforming to Amazon Elastic Container Service (ECS)](./replatform-ecs.md)**
 
 📌 **Learn more:**  
 👉 [📄 Modernization Strategies](./modernization.md)

@@ -4,7 +4,7 @@
 Now that the source servers have been added to **AWS Elastic Disaster Recovery (EDR)**, I need to configure the **EC2 launch settings**. These settings define how recovery instances will be launched when a disaster occurs.
 
 📌 **Ensure that the AWS Region is set to `us-west-1 (N. California)` before proceeding.**  
-📷 **[Switch AWS Region](./images/changed-region.png)**  
+📷 **[Switch AWS Region](./images/changed-region2.png)**  
 
 ---
 

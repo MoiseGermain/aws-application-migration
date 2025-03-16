@@ -8,8 +8,6 @@ Before using **AWS Elastic Disaster Recovery (EDR)**, I need to initialize the s
 
 📌 **Ensure that the AWS Region is set to `N. California (us-west-1)` before proceeding.**  
 
-📷 **[Verify AWS Region](./images/changed-region.png)**  
-
 ---
 
 ## **📍 Step 1: Open the AWS Elastic Disaster Recovery Console**

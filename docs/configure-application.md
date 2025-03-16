@@ -86,4 +86,4 @@ Select database-1 and check the Endpoint and Port.
 🎯 Next Steps
 Now that my application is fully functional, it's time to finalize the cutover process in AWS Application Migration Service (MGN).
 
-➡️ Finalize Cutover 🎉
+➡️ **[Finalize Cutover 🎉](./finalize-cutover.md**

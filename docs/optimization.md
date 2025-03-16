@@ -92,9 +92,4 @@ Below is a **reference architecture** implementing the above optimizations:
 
 ---
 
-## **✅ Next Steps**
-➡️ **Explore Further AWS Optimization Strategies**  
-➡️ **Implement Security Best Practices for a Production-Ready Deployment**  
-➡️ **Set Up Advanced Monitoring with AWS CloudWatch & GuardDuty**  
-
----
+➡️ **[Cleanup Guide](../docs/cleanup.md)** 

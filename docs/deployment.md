@@ -75,7 +75,7 @@ While deploying, I accounted for potential errors and found solutions to common 
 
 ## **✅ Next Steps**
 ➡️ **[Review the Deployed Infrastructure](../docs/review-deployment.md)**  
-➡️ **[Begin Application Migration](../docs/migration.md)**  
+➡️ **[Begin Application Migration](../docs/application-migration.md)**  
 ➡️ **[Troubleshoot Deployment Issues](../docs/troubleshooting.md)**  
 
 This project demonstrates how I successfully **migrated an application to AWS**, using **CloudFormation** to create a **scalable, secure, and automated cloud environment** for production workloads.

@@ -65,5 +65,4 @@ My source server should now be in initial synchronization.
 📌 The replication process starts immediately and can take a few minutes to complete.
 
 🎯 Next Steps
-✅ AWS MGN Agent is installed and running!
-➡️ Proceed to Explore Source Server in AWS MGN
+➡️ **[Updating Server Details in AWS MGN](./update-server-details.md)**

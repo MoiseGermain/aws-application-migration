@@ -28,7 +28,6 @@ The **DB Subnet Group** allows me to **define the subnets** where my **RDS insta
 | **Availability Zones** | Select `us-west-2a` and `us-west-2b` |
 | **Add subnets** | Add `10.0.101.0/24`, `10.0.201.0/24` |
 
-🔗 **[DB Subnet Group Configuration](../assets/db-subnet-group-config.png)**
 
 Click **Create**.
 

@@ -49,7 +49,7 @@ My **source environment** consists of **two EC2 instances**:
 ⚠️ **The environment is deliberately non-optimal** to showcase **modernization strategies** during migration.
 
 ### **Source Environment Architecture**
-![Source Environment Architecture](../screenshots/source-environment.png)
+![Source Environment Architecture](assets/source-environment.png)
 
 📌 *This image represents my current infrastructure setup before migration.*
 

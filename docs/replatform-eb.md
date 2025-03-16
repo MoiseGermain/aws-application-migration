@@ -7,7 +7,7 @@ In this section, I will migrate my WordPress-based web application from an EC2 i
 ✅ **Supports multiple platforms (PHP, Java, Node.js, etc.)**  
 ✅ **Retains full control over underlying AWS resources**  
 
-📷 [**Beanstalk Overview**](images/beanstalk-overview.png)
+📷 [**Beanstalk Overview](images/beanstalk-overview.png)
 
 ---
 

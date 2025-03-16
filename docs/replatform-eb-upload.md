@@ -23,7 +23,7 @@ mysourcecodebucket-xxxx
 5. Keep all other settings as default.
 6. Scroll down and click **Create bucket**.
 
-📷 [**S3 Bucket Creation Screenshot](images/create-s3-bucket.png)
+![S3 Bucket Creation Screenshot](images/create-s3-bucket.png)
 
 📌 **I will take note of my bucket name** as I will use it in the next step.
 

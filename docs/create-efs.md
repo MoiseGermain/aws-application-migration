@@ -25,7 +25,7 @@ Amazon Elastic File System (EFS) provides scalable file storage that integrates 
 4️⃣ Click **Create**  
 5️⃣ In the list of file systems, click on **`webserver-filesystem`** to open its details  
 
-📷 [**Create Elastic File System](images/create-efs.png)
+![Create Elastic File System](images/create-efs.png)
 
 ---
 
@@ -44,7 +44,7 @@ Amazon Elastic File System (EFS) provides scalable file storage that integrates 
 
 5️⃣ Click **Save**  
 
-📷 [**Configure Network Mount Targets](images/configure-mount-targets.png)
+![Configure Network Mount Targets](images/configure-mount-targets.png)
 
 ---
 
@@ -58,7 +58,7 @@ Amazon Elastic File System (EFS) provides scalable file storage that integrates 
 file-system-id.efs.aws-region.amazonaws.com
 ```
 
-📷 [**EFS File System ID](images/efs-id.png)
+![EFS File System ID](images/efs-id.png)
 
 ---
 

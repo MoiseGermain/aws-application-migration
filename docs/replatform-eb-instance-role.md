@@ -18,7 +18,7 @@ This role allows the EC2 instances running my application to access **Amazon S3*
 2. In the left menu, click **Roles**.
 3. Click the **Create Role** button.
 
-📷 [**Create IAM Role Screenshot](images/create-iam-role.png)
+![Create IAM Role Screenshot](images/create-iam-role.png)
 
 ---
 
@@ -27,7 +27,7 @@ This role allows the EC2 instances running my application to access **Amazon S3*
 2. Under **Use case**, select **EC2**.
 3. Click **Next**.
 
-📷 [**IAM Trusted Entity Selection Screenshot](images/iam-trusted-entity.png)
+![IAM Trusted Entity Selection Screenshot](images/iam-trusted-entity.png)
 
 ---
 
@@ -36,7 +36,7 @@ This role allows the EC2 instances running my application to access **Amazon S3*
 2. Check the box next to it.
 3. Click **Next**.
 
-📷 [**IAM Role Permissions Selection Screenshot](images/iam-role-permissions.png)
+![IAM Role Permissions Selection Screenshot](images/iam-role-permissions.png)
 
 ---
 
@@ -45,7 +45,7 @@ This role allows the EC2 instances running my application to access **Amazon S3*
 ElasticBeanstalkInstanceRoleWeb
 ```2. Click **Create Role** at the bottom of the page.
 
-📷 [**IAM Role Name Screenshot](images/iam-role-name.png)
+![IAM Role Name Screenshot](images/iam-role-name.png)
 ```
 
 ---

@@ -16,7 +16,7 @@ When migrating my application to Amazon ECS, I need a secure way to store and re
 2️⃣ Click **Parameter Store** in the left menu  
 3️⃣ Click **Create parameter**  
 
-📷 [**AWS Parameter Store Console](images/parameter-store.png)
+![AWS Parameter Store Console](images/parameter-store.png)
 
 ---
 
@@ -51,7 +51,7 @@ For each parameter, I will enter the details below:
    - **Key Management Service (KMS) Encryption:** `My current account`
 7️⃣ Click **Create parameter**  
 
-📷 [**AWS SecureString for DB_PASSWORD](images/securestring.png)
+![AWS SecureString for DB_PASSWORD](images/securestring.png)
 
 ---
 

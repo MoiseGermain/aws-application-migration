@@ -17,7 +17,7 @@ Now that I have successfully created an **ECS Task Definition**, I am ready to *
 3️⃣ Click on **Services** tab  
 4️⃣ Click **Create**  
 
-📷 [**Create ECS Service](images/create-ecs-service.png)
+![Create ECS Service](images/create-ecs-service.png)
 
 ---
 
@@ -36,7 +36,7 @@ Now that I have successfully created an **ECS Task Definition**, I am ready to *
 | **Min Running Tasks** | `100`          |
 | **Max Running Tasks** | `200`          |
 
-📷 [**Configure ECS Deployment](images/configure-ecs-deployment.png)
+![Configure ECS Deployment](images/configure-ecs-deployment.png)
 
 ---
 
@@ -50,7 +50,7 @@ Now that I have successfully created an **ECS Task Definition**, I am ready to *
 | **Security Group** | `ECS-Tasks-SG`     |
 | **Public IP**   | `OFF`                |
 
-📷 [**Configure ECS Networking](images/configure-ecs-networking.png)
+![Configure ECS Networking](images/configure-ecs-networking.png)
 
 ---
 
@@ -63,7 +63,7 @@ Now that I have successfully created an **ECS Task Definition**, I am ready to *
 4️⃣ Use **HTTP listener on port 80**  
 5️⃣ Select **`unicorn-tg`** as the Target Group  
 
-📷 [**Configure ECS Application Load Balancer](images/configure-ecs-alb.png)
+![Configure ECS Application Load Balancer](images/configure-ecs-alb.png)
 
 ---
 
@@ -81,7 +81,7 @@ Now that I have successfully created an **ECS Task Definition**, I am ready to *
 | **Scale-out Cooldown** | `300` seconds   |
 | **Scale-in Cooldown** | `300` seconds   |
 
-📷 [**Configure ECS Auto Scaling](images/configure-ecs-autoscaling.png)
+![Configure ECS Auto Scaling](images/configure-ecs-autoscaling.png)
 
 ---
 

@@ -25,7 +25,7 @@ To run my **WordPress container on ECS**, I need to define an **ECS Task Definit
 | **Protocol**        | `TCP`                      |
 | **App Protocol**     | `HTTP`                     |
 
-📷 [**Configure ECS Task Definition](images/configure-ecs-task.png)
+![Configure ECS Task Definition](images/configure-ecs-task.png)
 
 ---
 
@@ -41,7 +41,7 @@ Under **Environment variables**, select **ValueFrom** and map the values:
 | `WORDPRESS_DB_USER` | `DB_USERNAME` |
 | `WORDPRESS_DB_PASSWORD` | `DB_PASSWORD` |
 
-📷 [**Configure ECS Environment Variables](images/configure-ecs-env-vars.png)
+![Configure ECS Environment Variables](images/configure-ecs-env-vars.png)
 
 ---
 
@@ -57,7 +57,7 @@ Under **Environment variables**, select **ValueFrom** and map the values:
 | **Task Role**              | `ecsTaskExecutionRole`  |
 | **Task Execution Role**    | `ecsTaskExecutionRole`  |
 
-📷 [**Configure ECS Task Environment](images/configure-ecs-environment.png)
+![Configure ECS Task Environment](images/configure-ecs-environment.png)
 
 ---
 
@@ -77,7 +77,7 @@ Under **Environment variables**, select **ValueFrom** and map the values:
 | **Container Path** | `/var/www/html/wp-content` |
 | **Read Only**    | `No`                    |
 
-📷 [**Configure ECS Task Volume](images/configure-ecs-task-volume.png)
+![Configure ECS Task Volume](images/configure-ecs-task-volume.png)
 
 ---
 
@@ -87,7 +87,7 @@ Under **Environment variables**, select **ValueFrom** and map the values:
 1️⃣ Scroll down to **Advanced Configurations**  
 2️⃣ **Enable Encryption in Transit**  
 
-📷 [**Enable Volume Encryption](images/enable-volume-encryption.png)
+![Enable Volume Encryption](images/enable-volume-encryption.png)
 
 ---
 

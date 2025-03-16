@@ -104,5 +104,5 @@ To review the created **Application Groups**:
 ---
 
 ## ✅ Next Steps
-➡️ [Plan Migration Strategies](../docs/migration-strategies.md)
+➡️ [Plan Migration Strategies](../docs/database-migration.md)
 ➡️ [Troubleshooting Guide](../docs/troubleshooting.md)

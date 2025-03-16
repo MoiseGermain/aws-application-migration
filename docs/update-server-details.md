@@ -72,50 +72,52 @@ For cost optimization, I will disable right-sizing and set my own instance type.
 
 📌 To disable right-sizing:
 
-Navigate to AWS Console → Application Migration Service.
-Select my source server → Click Launch settings tab.
-Click Edit in the General launch settings section.
-Set Instance type right sizing to Off.
-Click Save settings.
+1.Navigate to AWS Console → Application Migration Service.
+2.Select my source server → Click Launch settings tab.
+3.Click Edit in the General launch settings section.
+4.Set Instance type right sizing to Off.
+5.Click Save settings.
+
 🔹 Step 2: Modify EC2 Launch Template
 📌 Now, I will customize my EC2 launch template to:
-
-Assign a specific subnet.
-Set instance type to t3.micro.
-Create a new security group for web access.
-Enable public IP assignment.
+- **Assign a specific subnet.
+****Set instance type to t3.micro.
+****Create a new security group for web access.
+****Enable public IP assignment.
+  
 📌 To modify the EC2 Launch Template:
+1.In Launch settings, click Modify under EC2 Launch Template.
+2.Click Modify again when prompted.
+3.Update the following settings:
 
-In Launch settings, click Modify under EC2 Launch Template.
-Click Modify again when prompted.
-Update the following settings:
 🛠 Instance Type
-Instance type → t3.micro.
+- **Instance type → t3.micro.
+- 
 🌐 Networking Configuration
-Subnet → TargetVPC-public-a.
-Firewall (Security Groups) → Create a new security group.
-Security Group Name → MigratedWebServer-SG.
-Description → Allow HTTP from anywhere.
-Inbound Rule:
-Type → HTTP
-Source → 0.0.0.0/0 (Allow public access)
+- **Subnet → TargetVPC-public-a.
+- **Firewall (Security Groups) → Create a new security group.
+    - **Security Group Name → MigratedWebServer-SG.
+    - **Description → Allow HTTP from anywhere.
+- **Inbound Rule:
+    - **Type → HTTP
+    - **Source → 0.0.0.0/0 (Allow public access)
 🔹 Advanced Networking
-Auto-assign public IP → Enable.
+- **Auto-assign public IP → Enable.
 🔹 Tags
-Name → Webserver.
+- **Name → Webserver.
 🔹 IAM Role
-Instance profile → migration-workshop-source-template-EC2InstanceProfile-XXX.
-Click Create template version.
-Copy the Launch Template ID → Click View launch templates.
-Select the newly created template → Click Actions → Set default version.
-Choose the latest version (e.g., Version 3) → Click Set as default version.
+- **Instance profile → migration-workshop-source-template-EC2InstanceProfile-XXX.
+4.Click Create template version.
+5.Copy the Launch Template ID → Click View launch templates.
+6.Select the newly created template → Click Actions → Set default version.
+7.Choose the latest version (e.g., Version 3) → Click Set as default version.
 ✅ EC2 Launch Template is now configured!
 
 4️⃣ Verify Migration Readiness
 📌 To confirm that my server is ready for testing:
 
-Navigate back to AWS Console → Application Migration Service.
-Under Source servers, my Migration lifecycle should be Ready for testing.
-Data replication status should be Healthy.
+1.Navigate back to AWS Console → Application Migration Service.
+2.Under Source servers, my Migration lifecycle should be Ready for testing.
+3.Data replication status should be Healthy.
 ✅ If everything looks good, I am now ready to test the migration!
 ➡️ Proceed to Test Migration 🚀

@@ -28,7 +28,7 @@ Now that the database is migrated, it's time to:
 ➡️ **Migrate and configure the application server!**  
 ➡️ **Repoint the application to the new AWS RDS database.**
 
-🔜 **[Continue to Application Migration](./migrate-application.md)**  
+🔜 **[Continue to Application Migration](./application-migration.md)**  
 
 # **🚀 Migration Summary**
 

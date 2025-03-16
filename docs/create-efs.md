@@ -94,3 +94,7 @@ Verify that EFS Security Groups allow traffic from ECS tasks
 Confirm NFS utilities are installed (nfs-common)
 Reference the AWS EFS Troubleshooting Guide
 📷 AWS EFS Troubleshooting
+
+📌 Next Steps
+✅ EFS is now set up and mounted on the webserver.
+➡️ Step 3: **[Configure AWS Systems Manager Parameter Store for Database Credentials](../docs/store-db-credentials.md)** 

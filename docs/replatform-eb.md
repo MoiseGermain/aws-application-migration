@@ -116,4 +116,4 @@ define('DB_HOST', 'my-rds-endpoint.amazonaws.com');
 📷 Beanstalk Logs for Troubleshooting
 
 📌 Next Steps
-➡️ Step 6: Monitor and Optimize Beanstalk
+➡️ **[Prepare Source Code for AWS Elastic Beanstalk Migration](../docs/replatform-eb-prepare.md)** 

@@ -32,7 +32,6 @@ For each parameter, I will enter the details below:
 | **DB_USERNAME** | `String`   | `RDS database username`                 |
 | **DB_PASSWORD** | `SecureString` | `RDS database password` (encrypted with KMS) |
 
-📷 [**Configure Parameter Store Details**](./images/parameter-details.png)
 
 ---
 
@@ -63,7 +62,6 @@ For each parameter, I will enter the details below:
 2️⃣ I should see the four parameters listed  
 3️⃣ Click on **DB_PASSWORD**, confirm it is encrypted  
 
-📷 [**AWS Parameter Store - List of Parameters**](./images/parameter-list.png)
 
 ---
 
@@ -98,4 +96,8 @@ If IAM permissions allow ECS tasks to access SSM Parameter Store
 That DB_PASSWORD is stored as SecureString
 SSM Parameter Name matches the reference in ECS Task Definition
 Check AWS CloudWatch Logs for ECS errors
-📷 AWS IAM Permissions for ECS to Access SSM
+AWS IAM Permissions for ECS to Access SSM
+
+📌 Next Steps
+✅ Database credentials are securely stored in Parameter Store.
+➡️ Step 4: **[Deploy an AWS Application Load Balancer (ALB)](../docs/deploy-alb.md)** 

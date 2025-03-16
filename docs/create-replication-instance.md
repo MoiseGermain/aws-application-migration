@@ -111,7 +111,6 @@ Click **Save rule**.
 1. Go to **AWS Console** → **DMS** → **Replication Instances**.
 2. Wait until **Status** changes to **Available**.
 
-🔗 **[DMS Replication Instance Available](../assets/dms-instance-available.png)**
 
 ---
 

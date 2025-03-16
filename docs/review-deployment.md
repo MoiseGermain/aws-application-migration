@@ -53,6 +53,7 @@ The **TargetVPC** is **provisioned but currently empty**. As the migration progr
 ---
 
 ## **Next Steps**
+➡️ **[Discovering and Analyzing My Environment with AWS Application Discovery Service](../docs/discovery-and-analysis.md)**
 ➡️ **[Deploy Migration Strategy](../docs/deployment.md)**  
 ➡️ **[Troubleshoot Issues](../docs/troubleshooting.md)**  
 

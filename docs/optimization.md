@@ -86,7 +86,7 @@ The **AWS Well-Architected Framework** consists of **five key pillars**:
 ## **📌 Reference Architecture**
 Below is a **reference architecture** implementing the above optimizations:
 
-📷 **[Reference Architecture Diagram](images/aws-optimized-architecture.png)**  
+![Reference Architecture Diagram](images/aws-optimized-architecture.png)**  
 
 🔗 **For more details, check the official [WordPress on AWS Reference Architecture](https://aws.amazon.com/quickstart/architecture/wordpress/)**  
 

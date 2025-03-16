@@ -71,4 +71,4 @@ Now that the source servers have been added to **AWS Elastic Disaster Recovery (
 The launch settings have been configured for both the **Web Server** and **Database Server**. Now, I will proceed with:  
 ➡️ **Initiating a Disaster Recovery Job**  
 
-📌 **[Proceed to Next Step: Disaster Recovery Execution](./elastic-disaster-recovery-testing.md)**  
+📌 **[Proceed to Next Step: Initiating a Disaster Recovery Job](./elastic-disaster-recovery-recovery.md)**  

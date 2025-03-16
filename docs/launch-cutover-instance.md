@@ -63,4 +63,4 @@ This involves launching a **cutover instance**, which is the final EC2 instance 
 ## **🎯 Next Steps**
 Now that my **migrated server is running in AWS**, it's time to **reconfigure it for full functionality**.
 
-➡️ **[Configure Migrated Server](./configure-migrated-server.md) 🔧**
+➡️ **[Configure Migrated Application](./configure-application.md) 🔧**

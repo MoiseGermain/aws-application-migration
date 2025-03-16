@@ -88,4 +88,4 @@ EXIT;
 🔗 Binary Logging Status Check
 
 🎯 Next Steps
-➡️ Create Source and Target Endpoints
+➡️ **[Create Source and Target Endpoints](./create-dms-endpoints.md )**

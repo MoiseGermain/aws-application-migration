@@ -30,7 +30,7 @@ To access the sample application:
 3. Open a browser and enter the **DNS name** over **HTTP**.
 4. You should see the **eCommerce application homepage**.
 
-📌 **Example Screenshot of Source Application Running**
+📌 
 ![Sample Application Running](../assets/source-app-screenshot.png)
 
 ---

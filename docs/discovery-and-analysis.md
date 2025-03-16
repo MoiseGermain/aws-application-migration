@@ -65,4 +65,4 @@ Once the AWS ADS agent is installed, I will:
 ---
 
 ## **📌 Next Steps**  
-➡️ **[Deploy the Migration Hub and Review Insights](migration-hub-analysis.md)**  
+➡️ **[🛠️ Prerequisites for AWS Migration](prerequisites.md)**  

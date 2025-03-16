@@ -85,4 +85,4 @@ I have now successfully:
 - **Configured networking, scaling, and database connections** ✅
 - **Deployed, monitored, and managed my application** ✅
 
-➡️ **Next:** **[AWS Elastic Disaster Recovery (EDR) Overviewe](../docs/elastic-disaster-recovery-overview.md)** 
+➡️ **Next:** **[AWS Elastic Disaster Recovery (EDR) Overview](../docs/elastic-disaster-recovery-overview.md)** 

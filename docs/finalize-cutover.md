@@ -71,6 +71,7 @@ My application is now running **natively on AWS**, ready for further **optimizat
 ---
 
 ## **🎯 Next Steps**
+➡️ **[🚀 Migration Summary](./migration-summary.md)**
 ➡️ **Optimize & Secure the Environment**  
 Now that my workload is fully migrated, I can explore:
 - **Enabling Auto Scaling and Load Balancing**

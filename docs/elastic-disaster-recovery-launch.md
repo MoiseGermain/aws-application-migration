@@ -4,7 +4,7 @@
 Now that the source servers have been added to **AWS Elastic Disaster Recovery (EDR)**, I need to configure the **EC2 launch settings**. These settings define how recovery instances will be launched when a disaster occurs.
 
 📌 **Ensure that the AWS Region is set to `us-west-1 (N. California)` before proceeding.**  
-📷 **[Switch AWS Region](images/changed-region2.png)**  
+![Switch AWS Region](images/changed-region2.png)**  
 
 ---
 
@@ -13,11 +13,11 @@ Now that the source servers have been added to **AWS Elastic Disaster Recovery (
    ➝ **Services → AWS Elastic Disaster Recovery**  
 2️⃣ Click **Source Servers** in the left navigation panel.  
 3️⃣ Select the **Web Server hostname**.  
-📷 **[Select Web Server](images/select-dr-ws.png)**  
+![Select Web Server](images/select-dr-ws.png)**  
 
 4️⃣ Click the **Launch settings** tab.  
 5️⃣ In the **EC2 Launch Template** section, click **Edit**.  
-📷 **[Edit Web Server Launch Settings](images/edit-ws-launch-settings.png)**  
+![Edit Web Server Launch Settings](images/edit-ws-launch-settings.png)**  
 
 ### **🔹 Update Web Server Launch Settings**
 | **Parameter**         | **Value** |
@@ -32,7 +32,7 @@ Now that the source servers have been added to **AWS Elastic Disaster Recovery (
 | **IAM Instance Profile**     | `migration-workshop-source-template-EC2InstanceProfile-xxx` |
 | **Auto-assign Public IP**    | `Yes` |
 
-📷 **[Updated Web Server Launch Settings](images/ws-launch-settings.png)**  
+![Updated Web Server Launch Settings](images/ws-launch-settings.png)**  
 
 6️⃣ Click **Update template** to save the changes.
 
@@ -43,11 +43,11 @@ Now that the source servers have been added to **AWS Elastic Disaster Recovery (
    ➝ **Services → AWS Elastic Disaster Recovery**  
 2️⃣ Click **Source Servers** in the left navigation panel.  
 3️⃣ Select the **Database Server hostname**.  
-📷 **[Select Database Server](images/select-dr-db.png)**  
+![Select Database Server](images/select-dr-db.png)**  
 
 4️⃣ Click the **Launch settings** tab.  
 5️⃣ In the **EC2 Launch Template** section, click **Edit**.  
-📷 **[Edit Database Server Launch Settings](images/edit-db-launch-settings.png)**  
+![Edit Database Server Launch Settings](images/edit-db-launch-settings.png)**  
 
 ### **🔹 Update Database Server Launch Settings**
 | **Parameter**         | **Value** |
@@ -61,7 +61,7 @@ Now that the source servers have been added to **AWS Elastic Disaster Recovery (
 |-----------------------------|----------|
 | **IAM Instance Profile**     | `migration-workshop-source-template-EC2InstanceProfile-xxx` |
 
-📷 **[Updated Database Server Launch Settings](images/ws-launch-settings.png)**  
+![Updated Database Server Launch Settings](images/ws-launch-settings.png)**  
 
 6️⃣ Click **Update template** to save the changes.
 

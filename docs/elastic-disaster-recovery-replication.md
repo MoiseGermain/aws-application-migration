@@ -4,7 +4,7 @@
 To enable AWS **Elastic Disaster Recovery (EDR)**, I must install the **AWS Replication Agent** on each source server. This will allow real-time replication of data to the **Disaster Recovery (DR) Region** (`us-west-1`).
 
 📌 **Ensure that the AWS Region is set to `us-west-2 (Oregon)` before proceeding.**  
-📷 **[Switch AWS Region](images/switch-region2.png)**  
+![Switch AWS Region](images/switch-region2.png)**  
 
 ---
 
@@ -13,10 +13,10 @@ To enable AWS **Elastic Disaster Recovery (EDR)**, I must install the **AWS Repl
 2️⃣ In **AWS Console**, navigate to:  
    **Services → EC2 → Instances**  
 3️⃣ Select **Source-Webserver**, then click **Connect**.  
-📷 **[Select Web Server](images/select-webserver.png)**  
+![Select Web Server](images/select-webserver.png)**  
 4️⃣ In the **Session Manager** tab, click **Connect**.  
 
-📷 **[Connect to Web Server](images/select-webserver.png)**  
+![Connect to Web Server](images/select-webserver.png)**  
 
 5️⃣ Copy and execute the following commands in the terminal:
 

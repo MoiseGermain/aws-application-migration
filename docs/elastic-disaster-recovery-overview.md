@@ -22,7 +22,7 @@ With **AWS EDR**, I can:
    - **Latest server state** 🟢
    - **Previous point in time** ⏳
 
-📷 **[AWS EDR General Architecture](images/edr-general-arch.png)**
+![AWS EDR General Architecture](images/edr-general-arch.png)**
 
 ---
 
@@ -33,7 +33,7 @@ With **AWS EDR**, I can:
 - I will **simulate a disaster event** and trigger a **recovery job**.
 - **Business continuity** will be maintained by launching my application in the **DR Region**.
 
-📷 **[Disaster Recovery Architecture](images/dr-architecture.png)**
+![Disaster Recovery Architecture](images/dr-architecture.png)**
 
 ---
 

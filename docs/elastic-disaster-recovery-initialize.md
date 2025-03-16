@@ -15,7 +15,7 @@ Before using **AWS Elastic Disaster Recovery (EDR)**, I need to initialize the s
    **Services → AWS Elastic Disaster Recovery**  
 2️⃣ Click **Configure and initialize** on the landing page.  
 
-📷 **[EDR Initialization](images/edr-init.png)**  
+![EDR Initialization](images/edr-init.png)**  
 
 ---
 
@@ -26,7 +26,7 @@ Before using **AWS Elastic Disaster Recovery (EDR)**, I need to initialize the s
    ➝ `Elastic-DR-subnet-us-west-1a`  
 3️⃣ Click **Next**.  
 
-📷 **[Replication Server Configuration](images/step1-replication-server-config.png)**  
+![Replication Server Configuration](images/step1-replication-server-config.png)**  
 
 ---
 
@@ -47,7 +47,7 @@ Before using **AWS Elastic Disaster Recovery (EDR)**, I need to initialize the s
 2️⃣ Select **Inactive** (we will specify the instance type later in the launch template).  
 3️⃣ Click **Next**.  
 
-📷 **[DRS Launch Settings](images/step4-replication-launch-settings.png)**  
+![DRS Launch Settings](images/step4-replication-launch-settings.png)**  
 
 ---
 
@@ -66,7 +66,7 @@ Before using **AWS Elastic Disaster Recovery (EDR)**, I need to initialize the s
    ➝ `migration-workshop-source-template-EC2InstanceProfile-xxx`  
 4️⃣ Click **Next**.  
 
-📷 **[EC2 Launch Template Configuration](images/step5-ec2-launch-settings.png)**  
+![EC2 Launch Template Configuration](images/step5-ec2-launch-settings.png)**  
 
 ---
 

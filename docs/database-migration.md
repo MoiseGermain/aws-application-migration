@@ -42,4 +42,4 @@ This approach provides a **scalable, cost-effective, and minimal-downtime soluti
 ---
 
 ## ⏭️ **Next Steps**
-➡️ **[Setup AWS DMS for Database Migration](./dms-setup.md)**
+➡️ **[Replatform - AWS Database Migration Service (DMS)](./replatform-database-migration.md)**

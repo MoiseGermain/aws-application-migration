@@ -64,4 +64,4 @@ Copy the Object URL and save it in a notepad.
 📌 I will save the Object URL because I will use it later when setting up the application source in AWS Elastic Beanstalk.
 
 ✅ Next Steps
-➡️ Deploy to AWS Elastic Beanstalk
+➡️ **[Create an IAM Instance Role for AWS Elastic Beanstalk](../docs/replatform-eb-instance-role.md)** 

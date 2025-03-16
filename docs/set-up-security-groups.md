@@ -33,7 +33,7 @@ To ensure secure communication between different AWS services in my ECS setup, I
 
 6️⃣ Click **Create security group**  
 
-📷 [**Configure Load Balancer Security Group**](./images/lb-sg-setup.png)
+📷 [**Configure Load Balancer Security Group**](images/lb-sg-setup.png)
 
 ---
 
@@ -57,7 +57,7 @@ To ensure secure communication between different AWS services in my ECS setup, I
 
 4️⃣ Click **Create security group**  
 
-📷 [**Edit ECS Tasks Security Group**](./images/ecs-tasks-sg.png)
+📷 [**Edit ECS Tasks Security Group**](images/ecs-tasks-sg.png)
 
 ---
 
@@ -82,7 +82,7 @@ To ensure secure communication between different AWS services in my ECS setup, I
 
 4️⃣ Click **Create security group**  
 
-📷 [**Create and Configure EFS Security Group**](./images/efs-sg-setup.png)
+📷 [**Create and Configure EFS Security Group**](images/efs-sg-setup.png)
 
 ---
 
@@ -100,7 +100,7 @@ To ensure secure communication between different AWS services in my ECS setup, I
 
 5️⃣ Click **Save rules**  
 
-📷 [**Update Database Security Group**](./images/update-db-sg.png)
+📷 [**Update Database Security Group**](images/update-db-sg.png)
 
 ---
 

@@ -12,8 +12,8 @@ To prepare for **Disaster Recovery (DR)**, I need to set up **networking require
 2️⃣ Select **N. California (`us-west-1`)** as the **new DR Region**.  
 3️⃣ Ensure that **N. California** is displayed before continuing.  
 
-📷 **[Switch AWS Region](./images/switch-region.png)**  
-📷 **[Verify AWS Region](./images/changed-region.png)**  
+📷 **[Switch AWS Region](images/switch-region.png)**  
+📷 **[Verify AWS Region](images/changed-region.png)**  
 
 ---
 
@@ -36,7 +36,7 @@ To prepare for **Disaster Recovery (DR)**, I need to set up **networking require
 
 5️⃣ Click **Create VPC**.  
 
-📷 **[VPC Creation Settings](./images/vpc-settings.png)**  
+📷 **[VPC Creation Settings](images/vpc-settings.png)**  
 
 ---
 
@@ -62,7 +62,7 @@ To prepare for **Disaster Recovery (DR)**, I need to set up **networking require
 
 5️⃣ Click **Create Security Group**.  
 
-📷 **[Create Web Server Security Group](./images/create-websg.png)**  
+📷 **[Create Web Server Security Group](images/create-websg.png)**  
 
 ---
 
@@ -84,7 +84,7 @@ To prepare for **Disaster Recovery (DR)**, I need to set up **networking require
 
 4️⃣ Click **Create Security Group**.  
 
-📷 **[Create Database Security Group](./images/create-dbsg.png)**  
+📷 **[Create Database Security Group](images/create-dbsg.png)**  
 
 ---
 

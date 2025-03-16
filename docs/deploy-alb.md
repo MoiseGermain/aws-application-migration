@@ -23,7 +23,7 @@ This ALB will distribute traffic across ECS tasks running my **WordPress contain
 | **Name**            | `ecs-target-group`             |
 | **VPC**             | `TargetVPC`                    |
 
-📷 [**Create EC2 Target Group**](./images/create-target-group.png)
+📷 [**Create EC2 Target Group**](images/create-target-group.png)
 
 4️⃣ Click **Next**  
 5️⃣ On **Register targets**, leave everything as default  
@@ -41,7 +41,7 @@ This ALB will distribute traffic across ECS tasks running my **WordPress contain
 3️⃣ Select **Application Load Balancer**  
 4️⃣ Click **Create**  
 
-📷 [**Create an ALB**](./images/create-alb.png)
+📷 [**Create an ALB**](images/create-alb.png)
 
 ---
 
@@ -54,7 +54,7 @@ This ALB will distribute traffic across ECS tasks running my **WordPress contain
 | **Scheme**          | `Internet-facing`              |
 | **IP Address Type** | `IPv4`                         |
 
-📷 [**Configure ALB Basic Settings**](./images/configure-alb.png)
+📷 [**Configure ALB Basic Settings**](images/configure-alb.png)
 
 Click **Next**.
 
@@ -68,7 +68,7 @@ Click **Next**.
 | **VPC**       | `TargetVPC`        |
 | **Subnets**   | `Public Subnet A, Public Subnet B` |
 
-📷 [**Select VPC and Public Subnets**](./images/select-vpc-subnets.png)
+📷 [**Select VPC and Public Subnets**](images/select-vpc-subnets.png)
 
 Click **Next**.
 
@@ -80,7 +80,7 @@ Click **Next**.
 1️⃣ Select **LB-SG** from the list  
 2️⃣ Click **Next**  
 
-📷 [**Select LB-SG Security Group**](./images/select-lb-sg.png)
+📷 [**Select LB-SG Security Group**](images/select-lb-sg.png)
 
 ---
 
@@ -92,7 +92,7 @@ Click **Next**.
 | **Listener Protocol**    | `HTTP (80)`              |
 | **Forward to**           | `ecs-target-group`       |
 
-📷 [**Configure ALB Listener**](./images/configure-listener.png)
+📷 [**Configure ALB Listener**](images/configure-listener.png)
 
 Click **Next**, then **Create Load Balancer**.
 

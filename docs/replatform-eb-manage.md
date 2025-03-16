@@ -14,7 +14,7 @@ Now that my **WordPress application** is running on **AWS Elastic Beanstalk**, I
 2️⃣ Click **Environments**.
 3️⃣ Locate my application under **Environment Name**.
 
-📷 [**Elastic Beanstalk Environments Screenshot**](./images/eb-environments.png)
+📷 [**Elastic Beanstalk Environments Screenshot**](images/eb-environments.png)
 
 ---
 
@@ -22,7 +22,7 @@ Now that my **WordPress application** is running on **AWS Elastic Beanstalk**, I
 1️⃣ Click the **URL** under the **URL** column.  
 2️⃣ This will open my **application's web interface**.
 
-📷 [**Elastic Beanstalk Public URL Screenshot**](./images/eb-public-url.png)
+📷 [**Elastic Beanstalk Public URL Screenshot**](images/eb-public-url.png)
 
 ---
 
@@ -35,7 +35,7 @@ Now that my **WordPress application** is running on **AWS Elastic Beanstalk**, I
    - **Public URL** ✅
    - **Currently running version** (can deploy new versions here) ✅
 
-📷 [**Elastic Beanstalk Environment Overview Screenshot**](./images/eb-env-overview.png)
+📷 [**Elastic Beanstalk Environment Overview Screenshot**](images/eb-env-overview.png)
 
 ---
 
@@ -44,7 +44,7 @@ Now that my **WordPress application** is running on **AWS Elastic Beanstalk**, I
 2️⃣ Check **Instance ID** where the application is running.
 3️⃣ Optionally, **Reboot** or **Terminate** the instance.
 
-📷 [**Elastic Beanstalk Environment Health Screenshot**](./images/eb-health.png)
+📷 [**Elastic Beanstalk Environment Health Screenshot**](images/eb-health.png)
 
 ---
 
@@ -52,7 +52,7 @@ Now that my **WordPress application** is running on **AWS Elastic Beanstalk**, I
 1️⃣ Click **Monitoring** from the left menu.
 2️⃣ Review application **CPU, memory, and request metrics**.
 
-📷 [**Elastic Beanstalk Monitoring Screenshot**](./images/eb-monitoring.png)
+📷 [**Elastic Beanstalk Monitoring Screenshot**](images/eb-monitoring.png)
 
 ---
 
@@ -63,7 +63,7 @@ Now that my **WordPress application** is running on **AWS Elastic Beanstalk**, I
    - **Previous deployments** ✅
    - **Rollback & Redeploy options** ✅
 
-📷 [**Elastic Beanstalk Application Versions Screenshot**](./images/eb-app-versions.png)
+📷 [**Elastic Beanstalk Application Versions Screenshot**](images/eb-app-versions.png)
 
 ---
 

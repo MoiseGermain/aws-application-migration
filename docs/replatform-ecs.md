@@ -17,7 +17,7 @@ I can deploy my ECS workloads using:
 📌 **For this project, I will use the AWS Fargate launch type** to remove the operational overhead of provisioning and managing infrastructure.
 
 📷 **ECS Fargate Architecture Overview**  
-👉 [![ECS Fargate Architecture](./images/ecs-fargate-architecture.png)](./images/ecs-fargate-architecture.png)
+👉 [![ECS Fargate Architecture](images/ecs-fargate-architecture.png)](images/ecs-fargate-architecture.png)
 
 ---
 

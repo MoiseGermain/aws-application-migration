@@ -57,7 +57,7 @@ After completing this migration, my environment now looks like this:
 🔹 **Monitoring & Optimization:** (Optional) Post-launch actions enabled in AWS CloudWatch  
 
 📌 **View my final AWS environment:**
-👉 [📷 Architectural Diagram](./images/final-migration-architecture.png)
+👉 [📷 Architectural Diagram](images/final-migration-architecture.png)
 
 ---
 

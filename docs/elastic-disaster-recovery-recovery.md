@@ -18,15 +18,15 @@ AWS DRS allows me to:
 2️⃣ Click **Source Servers** in the left navigation panel.  
 3️⃣ Select the **Web Server hostname**.  
 4️⃣ Click **Initiate Recovery Job**, then select **Initiate Recovery**.  
-📷 **[Initiate Web Server Recovery](./images/select-ws-job.png)**  
+📷 **[Initiate Web Server Recovery](images/select-ws-job.png)**  
 
 5️⃣ In the **Points in Time** section, choose:  
    ✅ **Use Most Recent Data**  
 6️⃣ Click **Initiate Recovery**.  
-📷 **[Select Recovery Data Point](./images/point-in-time.png)**  
+📷 **[Select Recovery Data Point](images/point-in-time.png)**  
 
 7️⃣ Return to **Source Servers**, click **View Job Details** to track progress.  
-📷 **[View Job Status](./images/ws-job-details.png)**  
+📷 **[View Job Status](images/ws-job-details.png)**  
 
 💡 **The recovery job will take approximately `10 minutes` to complete.**
 
@@ -37,18 +37,18 @@ AWS DRS allows me to:
    ➝ **Services → AWS Elastic Disaster Recovery**  
 2️⃣ Click **Source Servers** in the left navigation panel.  
 3️⃣ Select the **Database Server hostname**.  
-📷 **[Select Database Server](./images/db-recovery.png)**  
+📷 **[Select Database Server](images/db-recovery.png)**  
 
 4️⃣ Click **Initiate Recovery Job**, then select **Initiate Recovery**.  
-📷 **[Initiate Database Server Recovery](./images/select-db-job.png)**  
+📷 **[Initiate Database Server Recovery](images/select-db-job.png)**  
 
 5️⃣ In the **Points in Time** section, choose:  
    ✅ **Use Most Recent Data**  
 6️⃣ Click **Initiate Recovery**.  
-📷 **[Select Recovery Data Point](./images/point-in-time-db.png)**  
+📷 **[Select Recovery Data Point](images/point-in-time-db.png)**  
 
 7️⃣ Return to **Source Servers**, click **View Job Details** to track progress.  
-📷 **[View Job Status](./images/db-job-details.png)**  
+📷 **[View Job Status](images/db-job-details.png)**  
 
 💡 **The recovery job will take approximately `10 minutes` to complete.**
 
@@ -58,7 +58,7 @@ AWS DRS allows me to:
 After launching both **Web Server** and **Database Server** recovery instances:
 - Check the **Source Servers** page for the **Ready** status.
 - Verify that both servers have been successfully recovered.  
-📷 **[Recovery Result](./images/recover-result.png)**  
+📷 **[Recovery Result](images/recover-result.png)**  
 
 ---
 

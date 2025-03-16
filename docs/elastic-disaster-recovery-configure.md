@@ -14,7 +14,7 @@ I will update the **web application configuration** to connect to the **new DR d
 2️⃣ Select **Instances** from the left navigation panel.  
 3️⃣ Locate the **Database Server** instance (matching the hostname recorded earlier in **Elastic Disaster Recovery → Source Servers**).  
 4️⃣ Copy and save the **Private IPv4 DNS Name**.  
-📷 **[Database Private DNS](./images/db-ipaddr.png)**  
+📷 **[Database Private DNS](images/db-ipaddr.png)**  
 
 ---
 
@@ -24,10 +24,10 @@ I will update the **web application configuration** to connect to the **new DR d
 2️⃣ Select **Instances** from the left navigation panel.  
 3️⃣ Locate the **Web Server** instance (matching the hostname recorded earlier in **Elastic Disaster Recovery → Source Servers**).  
 4️⃣ Click **Connect** at the top right.  
-📷 **[Select Web Server](./images/select-dr-ws2.png)**  
+📷 **[Select Web Server](images/select-dr-ws2.png)**  
 
 5️⃣ Select **Session Manager** and click **Connect** to open a terminal session.  
-📷 **[Connect to Web Server](./images/select-ssm.png)**  
+📷 **[Connect to Web Server](images/select-ssm.png)**  
 
 6️⃣ Run the following script in the terminal, replacing `<recovery Database server private IP DNS name>` with the **Private IPv4 DNS Name** from Step 1.  
 ```bash
@@ -54,7 +54,7 @@ exit
 
 5️⃣ Open a web browser and paste the copied Public IPv4 DNS to check if the application is functional.
 📌 Use HTTP instead of HTTPS, as SSL is not configured.
-📷 **[Web Application Successfully Recovered](./images/Public-IPv4-DNS-web-browser.png)**
+📷 **[Web Application Successfully Recovered](images/Public-IPv4-DNS-web-browser.png)**
 
 ✅ Final Verification
 ✔️ The Web Server now connects to the recovery Database Server.

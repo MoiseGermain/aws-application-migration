@@ -23,7 +23,7 @@ To run my **WordPress application in containers**, I need to create an **Amazon 
 | **Subnets**      | `TargetVPC-private-a-web`  |
 |                  | `TargetVPC-private-b-web`  |
 
-📷 [**Create ECS Cluster**](./images/create-ecs-cluster.png)
+📷 [**Create ECS Cluster**](images/create-ecs-cluster.png)
 
 ---
 

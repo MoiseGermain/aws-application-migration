@@ -16,7 +16,7 @@ This will fully launch my application on **AWS Elastic Beanstalk**, making it ac
    [🔗 AWS Elastic Beanstalk Console](https://console.aws.amazon.com/elasticbeanstalk/)
 2. Click **Create Application**.
 
-📷 [**Create Elastic Beanstalk Application Screenshot**](./images/create-eb-app.png)
+📷 [**Create Elastic Beanstalk Application Screenshot**](images/create-eb-app.png)
 
 ---
 
@@ -30,7 +30,7 @@ This will fully launch my application on **AWS Elastic Beanstalk**, making it ac
    | **Platform Branch** | `PHP 8.1 running on 64-bit Amazon Linux 2` |
    | **Platform Version** | Choose **Recommended Option** (e.g., `3.6.0`) |
 
-📷 [**Elastic Beanstalk Application Settings Screenshot**](./images/eb-app-settings.png)
+📷 [**Elastic Beanstalk Application Settings Screenshot**](images/eb-app-settings.png)
 
 2. Under **Upload your code**, select **Upload** and provide:
    
@@ -41,11 +41,11 @@ This will fully launch my application on **AWS Elastic Beanstalk**, making it ac
    | **Public S3 URL**    | `Select` |
    | **S3 URL**           | `S3 object link` (from **wordpress-beanstalk.zip** upload) |
 
-📷 [**Elastic Beanstalk S3 Settings Screenshot**](./images/eb-s3-settings.png)
+📷 [**Elastic Beanstalk S3 Settings Screenshot**](images/eb-s3-settings.png)
 
 3. Choose **Single Instance (free-tier eligible)** under **Presets**.
 
-📷 [**Elastic Beanstalk Presets Screenshot**](./images/eb-presets.png)
+📷 [**Elastic Beanstalk Presets Screenshot**](images/eb-presets.png)
 
 4. Click **Next**.
 
@@ -56,7 +56,7 @@ This will fully launch my application on **AWS Elastic Beanstalk**, making it ac
 2. Select **ElasticBeanStalkInstanceRoleWeb** (previously created).  
 3. Click **Next**.
 
-📷 [**Elastic Beanstalk Service Role Selection Screenshot**](./images/eb-service-role.png)
+📷 [**Elastic Beanstalk Service Role Selection Screenshot**](images/eb-service-role.png)
 
 ---
 
@@ -65,13 +65,13 @@ This will fully launch my application on **AWS Elastic Beanstalk**, making it ac
 2. Select **Public IP address**.
 3. Choose **TargetVPC-public-a** in **us-west-2a** Availability Zone.
 
-📷 [**Elastic Beanstalk Networking Screenshot**](./images/eb-network.png)
+📷 [**Elastic Beanstalk Networking Screenshot**](images/eb-network.png)
 
 4. Scroll down to **Database Settings** and select:
    - **TargetVPC-private-a-db**
    - **TargetVPC-private-b-db**
 
-📷 [**Elastic Beanstalk Database Subnets Screenshot**](./images/eb-db-subnets.png)
+📷 [**Elastic Beanstalk Database Subnets Screenshot**](images/eb-db-subnets.png)
 
 5. Click **Next**.
 
@@ -85,7 +85,7 @@ ami-0c493115dacb8e9bd
 
 2. Confirm **Single Instance** is selected.
 
-📷 [**Elastic Beanstalk Auto Scaling Screenshot**](./images/eb-auto-scaling.png)
+📷 [**Elastic Beanstalk Auto Scaling Screenshot**](images/eb-auto-scaling.png)
 
 3. Click **Next**.
 
@@ -103,7 +103,7 @@ ami-0c493115dacb8e9bd
 | `RDS_PASSWORD` | **Your RDS Password** |
 | `RDS_PORT`     | `3306` |
 
-📷 [**Elastic Beanstalk Environment Variables Screenshot**](./images/eb-env-variables.png)
+📷 [**Elastic Beanstalk Environment Variables Screenshot**](images/eb-env-variables.png)
 
 3. Click **Next**.
 
@@ -113,7 +113,7 @@ ami-0c493115dacb8e9bd
 1. **Review configuration** to ensure everything is correct.
 2. Click **Submit**.
 
-📷 [**Elastic Beanstalk Review and Submit Screenshot**](./images/eb-review-submit.png)
+📷 [**Elastic Beanstalk Review and Submit Screenshot**](images/eb-review-submit.png)
 
 ---
 
@@ -132,7 +132,7 @@ To allow MySQL traffic from **Elastic Beanstalk**, update the **RDS Security Gro
 |-------------|---------|------------------------------------|
 | **MYSQL/Aurora** | **TCP** | **Elastic Beanstalk Security Group** |
 
-📷 [**Elastic Beanstalk RDS Security Group Screenshot**](./images/eb-rds-security-group.png)
+📷 [**Elastic Beanstalk RDS Security Group Screenshot**](images/eb-rds-security-group.png)
 
 7. Click **Save Rules**.
 

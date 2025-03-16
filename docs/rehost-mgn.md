@@ -77,5 +77,4 @@ If everything looks good, finalize the cutover.
 ✅ Implement AWS Cost Optimization best practices.
 
 🎯 Next Steps
-Now that the application is successfully migrated, it's time to Replatform for Optimization!
-🔜 Proceed to Replatforming with Amazon ECS
+➡️ **[Initial Setup for AWS Application Migration Service (MGN)](./initial-setup-mgn.md)**

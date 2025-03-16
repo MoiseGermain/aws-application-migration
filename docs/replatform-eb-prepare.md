@@ -96,7 +96,7 @@ ls -ltr
 📷 ZIP File Validation Screenshot
 
 ✅ Next Steps
-➡️ Upload Source Code to S3
+➡️ **[Upload Source Code to S3 for AWS Elastic Beanstalk Migration](../docs/replatform-eb-upload.md)** 
 
 
 

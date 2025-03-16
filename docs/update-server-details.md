@@ -120,4 +120,4 @@ For cost optimization, I will disable right-sizing and set my own instance type.
 2.Under Source servers, my Migration lifecycle should be Ready for testing.
 3.Data replication status should be Healthy.
 ✅ If everything looks good, I am now ready to test the migration!
-➡️ Proceed to Test Migration 🚀
+➡️ **Proceed to Test Migration 🚀](./launch-test-instance.md)**

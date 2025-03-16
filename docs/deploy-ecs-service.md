@@ -91,7 +91,6 @@ Now that I have successfully created an **ECS Task Definition**, I am ready to *
 
 ✅ **ECS Service successfully deployed!** 🎉  
 
-📷 [**ECS Service Active**](./images/ecs-service-active.png)
 
 ---
 
@@ -130,3 +129,4 @@ If my tasks go from PENDING → STOPPED, I can check logs:
 📌 Solution: Authenticate with Docker Hub to increase the pull rate limit.
 
 📷 ECS Task Troubleshooting Guide
+➡️ **[Troubleshoot Deployment Issues](../docs/troubleshooting.md)**  

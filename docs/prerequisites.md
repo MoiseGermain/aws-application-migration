@@ -29,5 +29,5 @@ To install the **AWS Application Discovery Service (ADS) Agent** on my **Source-
 ---
 
 ## **✅ Next Steps**  
-➡️ **[Discover and Analyze My Environment](discovery-and-analysis.md)**  
+➡️ **[🚀 Deploy AWS Application Discovery Service (ADS)](deploy.md)**  
 

@@ -37,15 +37,6 @@ Click **Create**.
 
 ---
 
-## **📌 Troubleshooting**
-🔹 **Error: "Unable to assume the service linked role"**  
-If you encounter this error, follow these steps:
-
-1️⃣ Navigate back to **ECS > Clusters**  
-2️⃣ Try the **Create Cluster** process again  
-
-📷 [**Troubleshoot ECS Service Role Issue**](./images/troubleshoot-ecs-role.png)
-
 ✅ **ECS Cluster is now successfully deployed.**
 
 ---

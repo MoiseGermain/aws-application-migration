@@ -17,8 +17,6 @@ AWS DRS allows me to:
    ➝ **Services → AWS Elastic Disaster Recovery**  
 2️⃣ Click **Source Servers** in the left navigation panel.  
 3️⃣ Select the **Web Server hostname**.  
-📷 **[Select Web Server](./images/ws-recovery.png)**  
-
 4️⃣ Click **Initiate Recovery Job**, then select **Initiate Recovery**.  
 📷 **[Initiate Web Server Recovery](./images/select-ws-job.png)**  
 

@@ -33,8 +33,6 @@ To run my **WordPress application in containers**, I need to create an **Amazon 
 ✅ Keep **AWS Fargate** as the selected option  
 ✅ Check **Use Container Insights** (to enable CloudWatch metrics)  
 
-📷 [**Enable AWS Fargate and Container Insights**](./images/ecs-fargate-container-insights.png)
-
 Click **Create**.
 
 ---

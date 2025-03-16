@@ -105,3 +105,4 @@ To review the created **Application Groups**:
 
 ## ✅ Next Steps
 ➡️ [Plan Migration Strategies](../docs/migration-strategies.md)
+➡️ [Troubleshooting Guide](../docs/troubleshooting.md)

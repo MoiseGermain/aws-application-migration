@@ -51,5 +51,5 @@ ElasticBeanstalkInstanceRoleWeb
 ---
 
 ## **✅ Next Steps**
-➡️ **[Attach the Role to EC2 Instances](./replatform-eb-attach-role.md)**
+➡️ **[🚀 Launch AWS Elastic Beanstalk Environment](../docs/replatform-eb-launch.md)** 
 
